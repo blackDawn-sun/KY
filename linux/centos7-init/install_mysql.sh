@@ -4,8 +4,8 @@
 function install_mysql {
  if ! command -v docker &> /dev/null; then
     echo "docker不存在，进行安装docker"
-	./git-config/linux/centos7-init/install_docker.sh
-	./git-config/linux/centos7-init/install_mysql.sh
+	./install_docker.sh
+	./install_mysql.sh
  else 
 	echo "检查mysql镜像和容器"
     docker images |grep mysql

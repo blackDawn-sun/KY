@@ -36,7 +36,7 @@ function install_compose {
     echo "docker-compose 命令不存在，是否准备安装 docker-compose...（输入n不安装）"
 		read key
 		if [ ! "n" = "$key" ];then 		
-			mv ./git-config/linux/centos7-init/docker/docker-compose-1.26.2 /usr/local/bin/docker-compose
+			mv ./docker/docker-compose-1.26.2 /usr/local/bin/docker-compose
 			chmod 777 /usr/local/bin/docker-compose
 			docker-compose version
 			echo "docker-compose 安装成功"		
