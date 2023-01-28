@@ -7,8 +7,29 @@ if ! command -v git &> /dev/null; then
     read key
  	if [ ! "n" = "$key" ];then 
         yum -y install git
-      	git config --global credential.helper store
+      	git config --global credential.helper store #用户密码自动保存
 		echo "git 安装成功"
+      	echo "是否拉取远程配置脚本...（输入n不拉取）"
+			read ispull
+			if [ ! "n" = "$ispull" ];then
+				#Git项目下载部分文件或文件夹 --开头
+				#1.创建文件夹 并初始化git
+				mkdir -p ~/git/config
+				cd ~/git/config
+				git init 
+				#2.连接要下载的库的地址
+				git remote add -f origin https://gitee.com/bg-stray/KY.git
+				#3.启用过滤功能
+				git config core.sparsecheckout true
+				#4.将install-all这个关键字加入过滤列表（要加/*），如果有其他关键字可以多次运行该命令，关键字是文件夹或文件皆可
+				echo linux/install-all.sh >> .git/info/sparse-checkout
+				#5.拉取代码
+				git pull origin master
+				#6.给与install-all.sh 权限
+				chmod u+x linux/install-all.sh
+				#Git项目下载部分文件或文件夹 --结尾
+				echo "远程配置脚本拉取成功！位置 ~/git/config/linux/install-all.sh"												
+			fi      	      
     else
         echo "git 安装失败"
   	fi
@@ -21,7 +42,7 @@ fi
 function install_ifconfig {
  if ! command -v ifconfig &> /dev/null; then
   echo "ifconfig 命令不存在，是否准备安装 ifconfig...（输入n不安装）"
-	  read key
+	read key
   	if [ ! "n" = "$key" ];then 
   	  yum -y install net-tools.x86_64
   	  echo "ifconfig 安装成功"
@@ -69,16 +90,32 @@ if ! command -v wget &> /dev/null; then
 function install_docker {
  if ! command -v docker &> /dev/null; then
     echo "docker 命令不存在，是否准备安装 docker...（输入n不安装）"
-	
-	
-	
-	
-	echo "docker 安装成功"
+		read key
+		if [ ! "n" = "$key" ];then 		
+			#1.环境
+			yum -y install gcc
+			yum -y install gcc-c++
+			#2.卸载旧版本
+			yum remove docker \ docker-client \ docker-client-latest \ docker-common \ docker-latest \ dock-latest-logrotate \ docker-logrotate \ docker-selinux \ docker-engine-selinux \ docker-engine
+			#3.安装依赖包
+			yum install -y yum-utils device-mapper-persistent-data lvm2
+			#4.设置stable镜像仓库
+			yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+			#5.更新yum软件包索引
+			yum makecache fast
+			#6.安装最新docker
+			yum -y install docker-ce
+			#7.启动docker
+			systemctl enable docker   #开机自启
+			systemctl start docker					
+			echo "docker 安装成功"		
+		else
+			echo "docker 安装失败"
+		fi
  else 
     echo "docker命令已存在"
  fi
 }
-
 
 #######执行程序#######
 install_git
