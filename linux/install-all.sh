@@ -9,43 +9,13 @@ if ! command -v git &> /dev/null; then
         yum -y install git
       	git config --global credential.helper store
 		echo "git 安装成功"
-      	echo "是否拉取远程配置脚本...（输入n不拉取）"
-			read ispull
-			if [ ! "n" = "$ispull" ];then
-				#Git项目下载部分文件或文件夹 --开头
-				#1.创建文件夹 并初始化git
-				mkdir -p ~/git/config
-				cd ~/git/config
-				git init 
-				#2.连接要下载的库的地址
-				git remote add -f origin https://gitee.com/bg-stray/KY.git
-				#3.启用过滤功能
-				git config core.sparsecheckout true
-				#4.将install-all这个关键字加入过滤列表（要加/*），如果有其他关键字可以多次运行该命令，关键字是文件夹或文件皆可
-				echo linux/install-all.sh >> .git/info/sparse-checkout
-				#5.拉取代码
-				git pull origin master
-				#6.给与install-all.sh 权限
-				chmod u+x linux/install-all.sh
-				#Git项目下载部分文件或文件夹 --结尾
-				echo "远程配置脚本拉取成功！位置 ~/git/config/linux/install-all.sh"	
-				
-					echo "是否执行远程脚本...（输入n不执行）"
-					read doInstallAll
-					if [ ! "n" = "$doInstallAll" ];then
-						cd ~/git/config/linux				
-						./install-all.sh
-					else
-					fi								
-			fi      	      
     else
-        echo "wget 安装失败"
+        echo "git 安装失败"
   	fi
 else 
     echo "git命令已存在"
 fi
 }
-install_git
 
 #安装ifconfig
 function install_ifconfig {
@@ -62,7 +32,6 @@ function install_ifconfig {
     echo "ifconfig命令已存在"
  fi
 }
-install_ifconfig
 
 #安装vim
 function install_vim {
@@ -79,7 +48,6 @@ if ! command -v vim &> /dev/null; then
     echo "vim命令已存在"
  fi
 }
-install_vim
 
 #安装wget
 function install_wget {
@@ -96,9 +64,6 @@ if ! command -v wget &> /dev/null; then
     echo "wget命令已存在"
  fi
 }
-install_wget
-
-
 
 #安装docker
 function install_docker {
@@ -113,4 +78,11 @@ function install_docker {
     echo "docker命令已存在"
  fi
 }
+
+
+#######执行程序#######
+install_git
+install_ifconfig
+install_vim
+install_wget
 install_docker
