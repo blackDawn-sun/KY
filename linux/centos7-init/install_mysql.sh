@@ -14,10 +14,12 @@ function install_mysql {
 		echo "是否安装 默认的 mysql镜像并启动mysql服务...（输入n不安装）"
 		read key
 		if [ ! "n" = "$key" ];then 		
-			cd ./git-config/linux/centos7-init/docker/mysql 
+			cd ./docker/mysql 
 			docker-compose up -d
 			echo "mysql 启动成功 起始位置 ："
 			pwd
+			cd ..
+			cd ..
 		else
 			echo "默认的 mysql 安装失败"
 		fi	
