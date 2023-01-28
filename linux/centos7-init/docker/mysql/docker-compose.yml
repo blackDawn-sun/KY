@@ -2,7 +2,7 @@ version: '3.1'
 services:
   mysql: #服务名（自定义）
     restart: always        #主要容器启动，服务就会跟着启动
-    image: daocloud.io/library/mysql:5.7.7  #指定镜像路径
+    image: mysql:5.7.7  #指定镜像路径
     container_name: mysql1  #镜像服务名docker容器内
     ports: #映射的端口表
       - 11001:3306
