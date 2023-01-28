@@ -31,8 +31,23 @@ function install_docker {
  fi
 }
 
+function install_compose {
+ if ! command -v docker-compose &> /dev/null; then
+    echo "docker-compose 命令不存在，是否准备安装 docker-compose...（输入n不安装）"
+		read key
+		if [ ! "n" = "$key" ];then 		
+			mv ./git-config/linux/centos7-init/docker/docker-compose-1.26.2 /usr/local/bin/docker-compose
+			docker-compose version
+			echo "docker-compose 安装成功"		
+		else
+			echo "docker-compose 安装失败"
+		fi
+ else 
+    echo "docker-compose已安装成功"
+ fi
+}
 
 
 #######执行程序#######
-
 install_docker
+install_compose

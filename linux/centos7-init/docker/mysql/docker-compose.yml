@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+  mysql: #服务名（自定义）
+    restart: always        #主要容器启动，服务就会跟着启动
+    image: daocloud.io/library/mysql:5.7.7  #指定镜像路径
+    container_name: mysql1  #镜像服务名docker容器内
+    ports: #映射的端口表
+      - 11001:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root    #设置root用户的密码
+      TZ: Asia/shanghai            #设置时区
+    #volumes: #设置数据卷映射
+      #- ./mysql/volume/conf:/usr/mysql/conf.d #数据库储存数据的位置
+      #- ./mysql/volume:/var/lib/mysql  #数据库配置 启动会加载文件夹内.cnf 文件
