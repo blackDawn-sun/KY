@@ -2,10 +2,9 @@
 
 #安装jdk
 function install_java {
- if ! command -v java &> /dev/null; then
  #java jdk 自定义安装路径
  jdkDir=/KF-environment/jdk
- 
+ if ! command -v java &> /dev/null; then
      echo "jdk未安装，是否准备安装 jdk1.8...（输入n不安装）"
 		read key
 		if [ ! "n" = "$key" ];then 	
