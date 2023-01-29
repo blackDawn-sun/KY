@@ -40,12 +40,13 @@ else
 	echo "jdk 已安装 是否进行卸载 （输入y进行卸载）"
 		read remove
 		if [ "y" = "$remove" ];then
-			rm -r $jdkDir
 			sed 's/\#\*\*\*\*\*\*\*\*\*\*自定义配置jdk开始[^~]*自定义配置jdk结束\*\*\*\*\*\*\*\*\*\*//g'
 			source /etc/profile
+			rm -rf $jdkDir
 			echo "jdk 卸载成功"
 		fi
  fi
 }
 #######执行程序#######
 install_java
+source /etc/profile
