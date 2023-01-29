@@ -42,7 +42,8 @@ else
 		if [ "y" = "$remove" ];then
 			#删除 jdk 在/etc/profile 中的环境变量的配置
 			sed -i -e "/自定义配置jdk开始/,/自定义配置jdk结束/d" /etc/profile
-			source /etc/profile
+			source /etc/profile			
+			unset JAVA_HOME #删除环境变量
 			echo "jdk环境变量删除成功"
 			rm -r $jdkDir/jdk1.8
 			echo "jdk 卸载成功 $jdkDir/jdk1.8"

@@ -17,7 +17,7 @@ function install_mvn {
 				./install_jdk.sh
 			else
 			#JAVA_HOME存在 安装maven
-			echo "JAVA_HOME环境变量存在 准备安装maven..."
+			echo "JAVA_HOME环境变量存在 值为：$JAVA_HOME  准备安装maven..."
 			
 				#1.下载maven
 				wget http://repo.huaweicloud.com/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
@@ -62,8 +62,9 @@ else
 		if [ "y" = "$remove" ];then
 			#删除 maven 在/etc/profile 中的环境变量的配置
 			sed -i -e "/自定义配置maven开始/,/自定义配置maven结束/d" /etc/profile
-			source /etc/profile
-			echo "jdk环境变量删除成功"
+			source /etc/profile		
+			unset MAVEN_HOME #删除环境变量
+			echo "jdk环境变量删除成功"	
 			rm -r $mvnDir/maven3.6.3
 			echo "maven 卸载成功 $mvnDir/maven3.6.3"
 		fi
