@@ -40,7 +40,8 @@ else
 	echo "jdk 已安装 是否进行卸载 （输入y进行卸载）"
 		read remove
 		if [ "y" = "$remove" ];then
-			sed 's/#\*\*\*\*\*\*\*\*\*\*自定义配置jdk开始[^~]*自定义配置jdk结束\*\*\*\*\*\*\*\*\*\*/\/n/g' /etc/profile
+			#删除 jdk 在/etc/profile 中的环境变量的配置
+			sed -i -e "/自定义配置jdk开始/,/自定义配置jdk结束/d" /etc/profile
 			source /etc/profile
 			rm -rf $jdkDir
 			echo "jdk 卸载成功"
