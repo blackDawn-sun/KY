@@ -43,7 +43,8 @@ else
 			#删除 jdk 在/etc/profile 中的环境变量的配置
 			sed -i -e "/自定义配置jdk开始/,/自定义配置jdk结束/d" /etc/profile
 			source /etc/profile
-			rm -rf $jdkDir
+			echo "jdk环境变量删除成功"
+			rm -r $jdkDir/jdk1.8
 			echo "jdk 卸载成功"
 		fi
  fi
