@@ -10,12 +10,14 @@ function install_mvn {
 		read key
 		if [ ! "n" = "$key" ];then 	
 		  
+		    source /etc/profile
 			if [ 0"$JAVA_HOME" = "0" ] ; then #判断环境变量JAVA_HOME 存在？
 			#JAVA_HOME不存在 安装jdk
 				echo "JAVA_HOME环境变量不存在 准备安装jdk..."
 				./install_jdk.sh
 			else
 			#JAVA_HOME存在 安装maven
+			echo "JAVA_HOME环境变量存在 准备安装maven..."
 			
 				#1.下载maven
 				wget http://repo.huaweicloud.com/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
