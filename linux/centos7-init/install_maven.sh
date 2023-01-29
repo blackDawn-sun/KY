@@ -44,9 +44,9 @@ export MAVEN_HOME PATH
 				#6.1设置 maven远程镜像仓库地址
 				#6.1.1下载setting文件 --华为官方
 				#wget http://mirrors.huaweicloud.com/api/v1/configurations/maven
-				#mv maven $mvnDir/maven3.6.3/config/setting.xml
+				#mv maven $mvnDir/maven3.6.3/config/settings.xml
 				#6.1.2 下载setting文件 -- gitee部署的
-				mv configs/maven/setting.xml $mvnDir/maven3.6.3/config/setting.xml
+				mv configs/maven/settings.xml $mvnDir/maven3.6.3/config/settings.xml
 				#6.2 修改本地仓库存放地址 （暂不修改）
 				echo "安装maven成功并已经配置好环境变量 安装路径：$mvnDir/maven3.6.3" 
 			fi
