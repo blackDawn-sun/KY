@@ -117,7 +117,8 @@ if ! command -v git &> /dev/null; then
 else 
     echo "git命令已存在"
 	cd ./git-config
-	git checkout -- *
+	git checkout -- * #git 未commit文件 回退
+	git clean -f -d -x #Git删除未跟踪的文件 -f强行删除文件 -d考虑未跟踪的目录以及未跟踪的文件 -x还要考虑被忽略的未跟踪文件.gitignore
 	git pull origin master
 	cd ..
 fi
