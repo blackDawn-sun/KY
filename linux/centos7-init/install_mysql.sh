@@ -11,9 +11,9 @@ function install_mysql {
     docker images |grep mysql
 	docker ps -a |grep mysql 
  
-		echo "是否安装 默认的 mysql镜像并启动mysql服务...（输入n不安装）"
+		echo "是否安装 默认的 mysql镜像并启动mysql服务...（输入y安装）"
 		read key
-		if [ ! "n" = "$key" ];then 		
+		if [ "y" = "$key" ];then 		
 			cd ./docker/mysql 
 			docker-compose up -d
 			echo "mysql 启动成功 起始位置 ："

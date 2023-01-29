@@ -17,7 +17,7 @@ function install_java {
 			tar -zxvf jdk-8u202-linux-x64.tar.gz
 			#3.创建jdk安装文件夹 并移动重命名到这个新文件夹
 			jdkDir=/KF-environment/jdk #java jdk 自定义安装路径
-			mkdir $jdkDir
+			mkdir -p $jdkDir
 			mv jdk1.8.0_202 $jdkDir/jdk1.8
 			#4.配置环境变量
 			echo "
