@@ -3,6 +3,8 @@
 #安装jdk
 function install_java {
  if ! command -v java &> /dev/null; then
+ jdkDir=/KF-environment/jdk #java jdk 自定义安装路径
+ 
      echo "jdk未安装，是否准备安装 jdk1.8...（输入n不安装）"
 		read key
 		if [ ! "n" = "$key" ];then 	
@@ -16,17 +18,16 @@ function install_java {
 			#f ：指定被处理的文件是什么
 			tar -zxvf jdk-8u202-linux-x64.tar.gz
 			#3.创建jdk安装文件夹 并移动重命名到这个新文件夹
-			jdkDir=/KF-environment/jdk #java jdk 自定义安装路径
 			mkdir -p $jdkDir
 			mv jdk1.8.0_202 $jdkDir/jdk1.8
 			#4.配置环境变量
 			echo "
-#**********自定义配置开始*********
+#**********自定义配置jdk开始*********
 # set java environment
 JAVA_HOME=${jdkDir}/jdk1.8
 PATH=\$JAVA_HOME/bin:\$PATH
 export JAVA_HOME PATH
-#**********自定义配置结束**********
+#**********自定义配置jdk结束**********
 " >> /etc/profile
 			#5.刷新配置
 			source /etc/profile
@@ -36,8 +37,14 @@ export JAVA_HOME PATH
 		fi
 else 
 	
-	echo "jdk 已安装"
-
+	echo "jdk 已安装 是否进行卸载 （输入y进行卸载）"
+		read remove
+		if [ "y" = "$remove" ];then
+			rm -r $jdkDir
+			sed 's/\#\*\*\*\*\*\*\*\*\*\*自定义配置jdk开始[^~]*自定义配置jdk结束\*\*\*\*\*\*\*\*\*\*//g'
+			source /etc/profile
+			echo "jdk 卸载成功"
+		fi
  fi
 }
 #######执行程序#######
