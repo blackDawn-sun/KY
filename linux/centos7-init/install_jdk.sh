@@ -3,7 +3,8 @@
 #安装jdk
 function install_java {
  if ! command -v java &> /dev/null; then
- jdkDir=/KF-environment/jdk #java jdk 自定义安装路径
+ #java jdk 自定义安装路径
+ jdkDir=/KF-environment/jdk
  
      echo "jdk未安装，是否准备安装 jdk1.8...（输入n不安装）"
 		read key
@@ -45,7 +46,7 @@ else
 			source /etc/profile
 			echo "jdk环境变量删除成功"
 			rm -r $jdkDir/jdk1.8
-			echo "jdk 卸载成功"
+			echo "jdk 卸载成功 $jdkDir/jdk1.8"
 		fi
  fi
 }
