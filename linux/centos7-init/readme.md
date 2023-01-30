@@ -1,9 +1,35 @@
 ## 脚本归类说明
-    -起始脚本: install.start
-    -基础环境脚本: install_git.sh install_ifconfig.sh install_wget.sh install_vim.sh install_docker.sh
-    -基于docker环境的脚本: install_mysql.sh
-    -基于wget软件的脚本: install_jdk.sh install_maven.sh
-    -基于jdk,maven环境的脚本: mvn_project_init.sh  mvn_project.sh(未编写完成)
+- 起始脚本: 
+
+  install.start
+
+- 基础环境脚本: 
+
+  install_git.sh 
+
+  install_ifconfig.sh 
+
+  install_wget.sh 
+
+  install_vim.sh 
+
+  install_docker.sh
+
+- 基于docker环境的脚本: 
+
+  install_mysql.sh
+
+- 基于wget软件的脚本: 
+
+  install_jdk.sh 
+
+  install_maven.sh（**基于git 拉取配置**）
+
+- 基于jdk,maven，git环境的脚本: 
+
+  mvn_project_init.sh  (**项目部署 初始化git脚本**)
+
+  mvn_project.sh(未编写完成)
 
 ## 脚本内容说明
 

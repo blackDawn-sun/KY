@@ -16,5 +16,6 @@ fi
 
 #编译导包
 cd "$projectName"
+
 git pull origin master
 mvn package -Dmaven.test.skip=true
