@@ -1,4 +1,11 @@
+## 描述
+
+基于CentOS 7 系统环境
+
+CentOS 7 起始安装时选择最小安装 不会安装很多基础软件，本项目可自动化安装这些基础软件如wget，ifconfig。。等
+
 ## 脚本归类说明
+
 - 起始脚本: 
 
   install.start
@@ -61,17 +68,24 @@
 
 #### install_jdk.sh 
 
-是Linux系统（基于CentOS 7）安装 jdk (这里使用8u202版本 --作为Oracle JDK的这个版本是最终的免费商用版)的启动脚本
+> 是Linux系统（基于CentOS 7）安装 jdk (这里使用8u202版本 --作为Oracle JDK的这个版本是最终的免费商用版)的启动脚本
+
 jdk官网： https://www.oracle.com/java/technologies/downloads/#java8
+
 jdk华为镜像地址： https://repo.huaweicloud.com/java/jdk/
+
 jdk下载地址：https://repo.huaweicloud.com/java/jdk/8u202-b08/jdk-8u202-linux-x64.tar.gz
+
 jdk Linux下载命令： wget http://repo.huaweicloud.com/java/jdk/8u202-b08/jdk-8u202-linux-x64.tar.gz
 
 #### install_maven.sh 
 
-是Linux（基于CentOS 7） 安装maven（以3.6.3为例） 的启动脚本
+> 是Linux（基于CentOS 7） 安装maven（以3.6.3为例） 的启动脚本
+
 maven 官网地址：https://maven.apache.org/download.cgi
+
 maven 华为镜像加速地址：https://repo.huaweicloud.com/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+
 maven Linux下载命令： wget http://repo.huaweicloud.com/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
 
 ## 问题
