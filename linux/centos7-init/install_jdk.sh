@@ -51,5 +51,6 @@ else
  fi
 }
 #######执行程序#######
+./install_wget #先安装wget
 install_java
 source /etc/profile

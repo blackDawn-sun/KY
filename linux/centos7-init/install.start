@@ -135,7 +135,7 @@ read doInstallAll
 
 if [ ! "n" = "$doInstallAll" ];then
 	cd ./git-config/linux/centos7-init
-	for file in $(ls ./*.sh);
+	for file in $(ls ./install-*.sh);
 	do 
 		echo "${file}"
 		chmod u+x $file
