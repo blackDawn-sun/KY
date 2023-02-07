@@ -1,0 +1,7 @@
+#!/bin/sh
+
+yum remove install net-tools.x86_64
+yum remove vim
+yum remove wget
+yum remove git
+rm -r ~/git/config
