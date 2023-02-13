@@ -52,7 +52,8 @@
 			"name": "一只鱼",
 			"server": "https://alist.youte.ml"
 		}
-		,{"name": "网络收集1","server": "https://drive.9t.ee"}
-		,{"name": "网络收集2","server": "https://www.kugutsu.ml"}
+		//其他收集
+		,{"name": "9T","server": "https://drive.9t.ee"}
+		,{"name": "木偶","server": "https://www.kugutsu.ml"}
 	]
 }
