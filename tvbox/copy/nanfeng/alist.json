@@ -35,12 +35,9 @@
 		{
 			"name": "杜比",
 			"server": "https://dubi.tk"
-		},
-		{
-			"name": "梓澪",
-			"server": "https://zi0.cc"
-		},
-		{
+		}
+		,{"name": "梓澪","server": "https://zi0.cc"}
+		,{
 			"name": "神族九帝",
 			"server": "https://alist.shenzjd.com"
 		},
@@ -53,7 +50,7 @@
 			"server": "https://alist.youte.ml"
 		}
 		//其他收集
-		,{"name": "9T","server": "https://drive.9t.ee"}
-		,{"name": "木偶","server": "https://www.kugutsu.ml"}
+		//,{"name": "9T","server": "https://drive.9t.ee"}
+		//,{"name": "木偶","server": "https://www.kugutsu.ml"}
 	]
 }
