@@ -1,10 +1,8 @@
 {
 	"storeHouse": [
-     {
-         "sourceName":"🏆吾爱💙推荐🏆","sourceUrl": "http://52bsj.vip:81/api/v3/file/get/67776/1.json?sign=Suz6jqs5w4g4FFTohPyWDC82QQdpOkbs8UN4OR9QJsI%3D%3A0"
-     }
-	 ,{"sourceName": "🧡安卓哥1号仓","sourceUrl": "http://52bsj.vip:81/api/v3/file/get/67777/2.json?sign=6uxC2q2PId6OS9Y9ucygvIGl6wvugOzZN3E0Hzl4oCs%3D%3A0"}
-	 ,{"sourceName":" 🚘潜力仓库-bg自制","sourceUrl":"https://gitee.com/bg-stray/KY/raw/master/tvbox/qianlicangku.json"}
+     //{"sourceName":"🏆吾爱💙推荐🏆","sourceUrl": "http://52bsj.vip:81/api/v3/file/get/67776/1.json?sign=Suz6jqs5w4g4FFTohPyWDC82QQdpOkbs8UN4OR9QJsI%3D%3A0"}
+	 //,{"sourceName": "🧡安卓哥1号仓","sourceUrl": "http://52bsj.vip:81/api/v3/file/get/67777/2.json?sign=6uxC2q2PId6OS9Y9ucygvIGl6wvugOzZN3E0Hzl4oCs%3D%3A0"}
+	 //,{"sourceName":" 🚘潜力仓库-bg自制","sourceUrl":"https://gitee.com/bg-stray/KY/raw/master/tvbox/qianlicangku.json"}
 	 ,{"sourceName":" 🚘私密仓库","sourceUrl":"https://gitee.com/bg-stray/KY/raw/master/tvbox/sm/sm.json"}
 	]
 }
