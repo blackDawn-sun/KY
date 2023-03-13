@@ -5,5 +5,56 @@
         ,{"url": "https://gitlab.com/ygbh1/666/-/raw/main/PRO.json","name": "潜力线路2"}
 		,{"url": "https://gitee.com/bg-stray/KY/raw/master/tvbox/copy/nanfeng/nanfeng.json","name": "南风线路copy"}
 		,{"url": "https://gitee.com/bg-stray/KY/raw/master/tvbox/sm/ss-tvbox","name": "18"}
+        , {
+            "url": "https://agit.ai/zqk219/baip/raw/branch/master/tv.json",
+            "name": "🕍默认线路"
+        },
+        
+
+{"url": "https://cdn.jsdelivr.net/gh/vpei/Free-TVUrl-Merge@main/out/tvbox.txt","name": "free"  },
+{"url": "https://github.com/heroaku/TVboxo/raw/main/Text/ptest.json","name": "tvbox3"  },
+{"url": "https://agit.ai/hu/hcr/raw/branch/master/MMM.txt","name": "hu"  },
+{"url": "https://pastebin.com/raw/RAHbbAVa","name": "rahbb"  },
+{"url": "https://agit.ai/cjh198488/TVboxo3/raw/branch/main/Text/tes.json","name": "TVboxo"  },
+
+        {
+            "url": "https://gitcode.net/zqk219/baip/-/raw/main/tv/18.json",
+            "name": "老司机1"
+        },
+        {
+            "url": "https://gitcode.net/zqk219/baip/-/raw/main/tv/lao1.txt",
+            "name": "老司机2"
+        },
+        {
+            "url": "https://gitcode.net/zqk219/baip/-/raw/main/tv/lao3json",
+            "name": "老司机3"
+        },
+        {
+            "url": "https://gitcode.net/zqk219/baip/-/raw/main/tv/lao4.json",
+            "name": "老司机4"
+        },
+        
+{
+            "url": "http://152.136.125.181:81/MM/dianbos/yeshijieC.json",
+            "name": "老司机5"
+        },
+{
+            "url": "https://gitcode.net/zqk219/baip/-/raw/main/tv/%E8%80%816.json",
+            "name": "老司机6"
+        },
+
+
+       
+
+        {
+            "url": "https://freed.yuanhsing.cf/TVBox/meowcf.json",
+            "name": "ch猫友"
+        },
+       
+        
+        {
+            "url": "http://111.67.196.181/mtv/270.txt",
+            "name": "�270"
+        }
     ]
 }
