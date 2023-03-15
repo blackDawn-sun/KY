@@ -18,7 +18,13 @@
 		,{"url": "http://miaotvs.cn/meow","name": "喵影视"}
 		,{"url": "https://jihulab.com/ygbh1/box/-/raw/main/%E6%9C%88%E5%85%89%E5%AE%9D%E7%9B%92","name": "月光宝盒"}
 	
-    
+    	,{"url": "https://app.easybox.vip/dy","name": "easybox"}
+		,{"url": "https://yydsys.top/duo/x.json","name": "阿里专线"}
+		,{"url": "https://agit.ai/relax/adcc/raw/branch/master/tvbox.json","name": "巧技"}
+		,{"url": "http://101.34.67.237/config/1","name": "小雅"}
+		,{"url": "http://home.jundie.top:81/top98.json","name": "俊佬"}
+
+	
 	
 	]
 }
