@@ -27,6 +27,8 @@
 	
 		,{"url": "https://yydsys.top/lm.json","name": "龙门影视"}
 		,{"url": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json","name": "蜂蜜"}
-
+		
+        ,{"url": "https://hutool.ml/tang","name": "唐三"}
+		,{"url": "https://agit.ai/nbwzlyd/xiaopingguo/raw/branch/master/xiaopingguo/xiaopingguo.json","name": "小苹果"}
 	]
 }
