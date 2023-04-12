@@ -1,8 +1,7 @@
 {
 	"storeHouse": [
-		{
-			"sourceName": "🚘网络仓库","sourceUrl": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/new-rpo/net-update/rpo.json"
-			,"sourceName": "🚘自改仓库","sourceUrl": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/new-rpo/net-Self/rpo.json"
-			}
+		{"sourceName": "🚘网络仓库","sourceUrl": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/new-rpo/net-update/rpo.json"}
+		//更换token失败 -- 后续改为copy仓库
+		//,{"sourceName": "🚘自改仓库","sourceUrl": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/new-rpo/net-Self/rpo.json"}
 	]
 }
