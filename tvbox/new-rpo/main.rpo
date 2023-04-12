@@ -1,6 +1,8 @@
 {
 	"storeHouse": [
-//有大佬更新的
-{"sourceName":" 🚘网络仓库","sourceUrl":"https://gitee.com/bg-stray/KY/raw/master/tvbox/new-rpo/net-update/net-rpo.json"}
+		{
+			"sourceName": "🚘网络仓库","sourceUrl": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/new-rpo/net-update/net-rpo.json"
+			,"sourceName": "🚘自改仓库","sourceUrl": "https://gitee.com/bg-stray/KY/raw/master/tvbox/new-rpo/net-update/net-rpo.json"
+			}
 	]
 }
