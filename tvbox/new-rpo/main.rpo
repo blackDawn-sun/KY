@@ -1,6 +1,6 @@
 {
 	"storeHouse": [
-		{"sourceName": "🚘网络仓库","sourceUrl": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/new-rpo/net-update/rpo.json"}
+		{"sourceName": "🚘网络仓库","sourceUrl": "https://ghproxy.com/https://raw.githubusercontent.com/blackDawn-sun/KY/master/tvbox/new-rpo/net-update/rpo.json"}
 	,{"sourceName": "🚘网络本地仓库","sourceUrl": "https://ghproxy.com/https://raw.githubusercontent.com/blackDawn-sun/KY/master/tvbox/LocalJar-makeBySelf/rpo.json"}
 	]
 }
