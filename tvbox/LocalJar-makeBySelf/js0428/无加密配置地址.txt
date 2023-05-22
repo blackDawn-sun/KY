@@ -1,0 +1,1 @@
+clan://localhost/tvfan/js/_js.json
