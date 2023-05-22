@@ -108,7 +108,7 @@
       "searchable": 1,
       "filterable": 1,
       "changeable": 0,
-      "ext": "../../token/ali.token"
+      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
     },
     {
       "key": "酷云77",
@@ -673,7 +673,7 @@
       "searchable": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "../../token/ali.token"
+      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
     },
     {
       "key": "易搜",
@@ -683,7 +683,7 @@
       "searchable": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "../../token/ali.token"
+      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
     },
     {
       "key": "盘搜",
@@ -693,7 +693,7 @@
       "searchable": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "../../token/ali.token"
+      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
     },
     {
       "key": "UP云搜",
@@ -703,7 +703,7 @@
       "searchable": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "../../token/ali.token"
+      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
     },
     {
       "key": "找资源",
@@ -713,7 +713,7 @@
       "searchable": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "../../token/ali.token$$$tvfan$$$tvfan"
+      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token$$$tvfan$$$tvfan"
     },
     {
       "key": "push_agent",
@@ -723,7 +723,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "../../token/ali.token"
+      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
     },
     {
       "key": "csp_Nbys",
