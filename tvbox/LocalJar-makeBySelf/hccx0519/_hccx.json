@@ -437,7 +437,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token"
+      "ext": "../../token/ali.token"
     },
     {
       "key": "csp_AliPS",
@@ -447,7 +447,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token"
+      "ext": "../../token/ali.token"
     },
     {
       "key": "csp_Upyunso",
@@ -457,7 +457,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token"
+      "ext": "../../token/ali.token"
     },
     {
       "key": "csp_Gitcafe",
@@ -467,7 +467,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token"
+      "ext": "../../token/ali.token"
     },
     {
       "key": "mtv_xp_动漫巴士",

@@ -46,7 +46,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token"
+      "ext": "../../token/ali.token"
     },
     {
       "key": "csp_apple",
@@ -494,7 +494,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token"
+      "ext": "../../token/ali.token"
     },
     {
       "key": "Zhaozy",
@@ -505,7 +505,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token$$$tvfan$$$tvfan"
+      "ext": "../../token/ali.token$$$tvfan$$$tvfan"
     },
     {
       "key": "PanSou",
@@ -516,7 +516,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token"
+      "ext": "../../token/ali.token"
     },
     {
       "key": "七夜",
@@ -527,7 +527,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token"
+      "ext": "../../token/ali.token"
     },
     {
       "key": "TuGou",
@@ -548,7 +548,7 @@
       "quickSearch": 1,
       "filterable": 0,
       "changeable": 0,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token"
+      "ext": "../../token/ali.token"
     },
     {
       "key": "PanSearch",
@@ -568,7 +568,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token"
+      "ext": "../../token/ali.token"
     },
     {
       "key": "csp_Nbys",

@@ -75,7 +75,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token"
+      "ext": "../../token/ali.token"
     },
     {
       "key": "农民",
@@ -135,7 +135,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token"
+      "ext": "../../token/ali.token"
     },
     {
       "key": "csp_AppMr",
@@ -442,7 +442,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token",
+      "ext": "../../token/ali.token",
       "jar": "./FM0406.jar;md5;a3a0ad16814a815fdad26b236cdd5a05"
     },
     {
@@ -454,7 +454,7 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token$$$tvfan$$$tvfan"
+      "ext": "../../token/ali.token$$$tvfan$$$tvfan"
     },
     {
       "key": "csp_search_Upyunso",
@@ -465,7 +465,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token"
+      "ext": "../../token/ali.token"
     },
     {
       "key": "csp_search_Alips",
@@ -476,7 +476,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token"
+      "ext": "../../token/ali.token"
     },
     {
       "key": "csp_BBB",
@@ -674,7 +674,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://raw.iqiq.io/blackDawn-sun/KY/master/tvbox/token/ali.token"
+      "ext": "../../token/ali.token"
     },
     {
       "key": "ext_live_protocol",
