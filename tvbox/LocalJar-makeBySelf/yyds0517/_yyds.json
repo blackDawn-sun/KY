@@ -133,7 +133,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "csp_WoGG",
@@ -143,7 +143,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "mtv_pc_yinfans",
@@ -322,7 +322,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "Alips",
@@ -332,7 +332,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "Yisou",
@@ -342,7 +342,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "Zhaozy",
@@ -352,7 +352,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token$$$tvfan$$$tvfan"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token$$$tvfan$$$tvfan"
     },
     {
       "key": "csp_CZSPP",
@@ -1400,7 +1400,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "PanSearch",
@@ -1410,7 +1410,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "local1",

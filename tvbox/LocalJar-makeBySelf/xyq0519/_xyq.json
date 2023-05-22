@@ -47,7 +47,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "csp_Zhaozy",
@@ -58,7 +58,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token$$$tvfan$$$tvfan"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token$$$tvfan$$$tvfan"
     },
     {
       "key": "csp_AliPS",
@@ -69,7 +69,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "csp_Yisou",
@@ -80,7 +80,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "csp_Upyunso",
@@ -91,7 +91,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "csp_XYQHiker_土狗搜索",
@@ -146,7 +146,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "360_spider",

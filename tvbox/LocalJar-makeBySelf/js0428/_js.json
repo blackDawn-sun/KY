@@ -50,7 +50,7 @@
       "type": 3,
       "api": "csp_Paper",
       "changeable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "易搜",
@@ -58,7 +58,7 @@
       "type": 3,
       "api": "csp_YiSo",
       "changeable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "盘搜",
@@ -66,7 +66,7 @@
       "type": 3,
       "api": "csp_PanSou",
       "changeable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "UP云搜",
@@ -74,7 +74,7 @@
       "type": 3,
       "api": "csp_UpYun",
       "changeable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "找資源",
@@ -82,7 +82,7 @@
       "type": 3,
       "api": "csp_Zhaozy",
       "changeable": 0,
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token$$$tvfan$$$tvfan"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token$$$tvfan$$$tvfan"
     },
     {
       "key": "drpy_js_360影视",
@@ -1534,7 +1534,7 @@
       "name": "阿里 | 推送",
       "type": 3,
       "api": "csp_Push",
-      "ext": "https://gitee.com/bg-stray/KY/edit/master/tvbox/token/aliYun.token"
+      "ext": "https://gitee.com/bg-stray/KY/raw/master/tvbox/token/aliYun.token"
     },
     {
       "key": "zhansun",
